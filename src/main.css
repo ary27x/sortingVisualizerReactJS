@@ -1,0 +1,67 @@
+* 
+{
+   padding : 0;
+   margin : 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+body
+{
+    background-color: pink; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, pink, white);
+}
+a {
+    color : white;
+    text-decoration: none;
+}
+.header
+{
+    display : flex;
+    background-color: black;
+    color : white;
+    padding : 1.5%;
+    justify-content: space-between;
+
+}
+
+.formElement , button
+{
+    padding : 1%;
+    margin-top : 1vh;
+    margin-right : 0.5%
+}
+
+.tray
+{
+         
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 73vh;
+    margin-top: 1vh;
+    
+
+}
+#sortingButton{
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+.bar{
+    position : absolute;
+    border : 1px solid grey;
+    bottom : 0px;
+}
+.screen
+{
+    border : 2px solid black; 
+    position: relative;
+    height : 100%;
+    width : 85%;
+    background-color: aqua;    
+}
+#speed , #jump
+{
+    appearance: none;
+    border :1px solid grey
+
+}
